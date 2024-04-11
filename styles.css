@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+}
+
+#map {
+    flex: 1;
+    height: 100%;
+}
+
+#details {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff; /* Add background color to details section for better visibility */
+}
+
+#details h2 {
+    color: #333;
+}
+
+#details p {
+    margin: 10px 0;
+    color: #666;
+}
